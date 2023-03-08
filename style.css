@@ -1,5 +1,36 @@
+*{
+  box-sizing: border-box;
+}
 body {
   width: 100%;
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+  font-style: inherit;
+}
+nav a{
+
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 62%;
+}
+figcaption{
+  font-size: smaller;
+  text-align: center;
+}
+#details {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  font-style: oblique;
+  border: 3px solid #73AD21;
+}
+
